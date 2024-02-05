@@ -292,7 +292,7 @@ void opponnent(char grid[]) {
     int num = b;
     if (isdigit(grid[num])) {
       grid[num] = OPPONENT;
-             
+      played = TRUE ;
     }
   }
 }
