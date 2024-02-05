@@ -269,7 +269,7 @@ void userTurn(char arr[]) {
              "choose another position: \n",
              num);
     } else {
-      arr[num] = PLAYER;
+      arr[num - 1] = PLAYER;
       printf("\n");
       printf("\n");
       break;
@@ -418,5 +418,5 @@ char checkWinner(char grid[]) {
 */
 void setupBoard(char grid[]) {
   for (int i = 0; i < GRID_SIZE; ++i)
-    grid[i] = i + 45;
+    grid[i] = i + 49;
 }
