@@ -418,5 +418,5 @@ char checkWinner(char grid[]) {
 */
 void setupBoard(char grid[]) {
   for (int i = 0; i < GRID_SIZE; ++i)
-    grid[i] = i + 45;
+    grid[i] = i + 49;
 }
