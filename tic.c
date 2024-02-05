@@ -269,7 +269,7 @@ void userTurn(char arr[]) {
              "choose another position: \n",
              num);
     } else {
-      arr[num] = PLAYER;
+      arr[num - 1] = PLAYER;
       printf("\n");
       printf("\n");
       break;
