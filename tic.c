@@ -1,7 +1,6 @@
 /*
 Authors: Alidad Mehdizadehnamin
          Shayan Heidari
-         Arshia Boroomandrad
 
 Instructor: Tamara Dakic
 Course: COMP 120
