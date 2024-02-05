@@ -289,7 +289,7 @@ void opponnent(char grid[]) {
 
   while (played != TRUE) {
     int b = rand();
-    int num = b;
+    int num = b % GRID_SIZE;
     if (isdigit(grid[num])) {
       grid[num] = OPPONENT;
       played = TRUE ;
